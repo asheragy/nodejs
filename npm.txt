@@ -1,0 +1,30 @@
+npm init                         creates packages.json, use before adding any dependencies
+npm install                      (if packages.json is available installs everything specified there)
+npm install <package> --save     (save to packages.json)
+npm install <package> --save-dev
+npm install <package> -g         (install globally)
+
+npm test (run tests)
+npm outdated (check what packages are out of date)
+npm update (update packages with available updates, based on package.json so major versions may be skipped ^major ~minor)
+npm update npm -g (update global npm package, can be used for other global packages too)
+npm uninstall <package> --save (removes package and updates package.json)
+
+https://docs.npmjs.com/
+
+
+
+
+Tasks runner
+npm run <task name>    - runs "scripts" command with this name in package.json
+npm test               - runs "npm run test" with default test script on packakge.json
+
+
+
+
+packages to try
+- express
+- mocha
+- grunt
+- coffee-script
+- http-server

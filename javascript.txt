@@ -1,0 +1,4 @@
+'use strict;' - enable strict mode
+debugger - add breakpoint in browser
+
+Non-writable objects - http://adripofjavascript.com/blog/drips/creating-unwritable-properties-with-object-defineproperty.html
